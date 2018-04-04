@@ -1,24 +1,22 @@
 
 h1 {
-
   text-color: Black;
   font-size: 14px;
   font-family: sans-serif;
   font-weight: bold;
-  /**border: 1px solid white;
-	border-spacing: 10px ; */
-
 }
 
+#responsive-image {
+  width: 100%;
+  height: auto;
+}
 
-#responsive-image {  width: 100%; height: auto; }
-
-.txt{ font-family: cursive;
-
+.txt{
+  font-family: cursive;
 }
 
 body {
-  background: url(2.jpg) no-repeat center center fixed;
+  background: url(img/2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -26,25 +24,27 @@ body {
   text-align: center; color: black;
 }
 
-
 .eng_def {
   font-weight: bold;
-  font-size: 20px;}
+  font-size: 20px;
+}
 
-.casa {    font-weight: bold;
-    font-style: italic;
-    font-family: 'Oleo Script Swash Caps' ;
-    font-size: 48px;
-    text-decoration-line: none;
-    text-decoration-color: black;
+.casa {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Oleo Script Swash Caps' ;
+  font-size: 48px;
+  text-decoration-line: none;
+  text-decoration-color: black;
+}
 
-  }
 .margin-top{
   margin-top:22px;
 }
 
-  a:hover{text-decoration: none!important;}
-  a{text-decoration: none !important; }
+a,a:hover{
+  text-decoration: none!important;
+}
 
   /* Boxes */
 h3{
